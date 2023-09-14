@@ -984,7 +984,12 @@ timeline.push(pavlovia_init);
 
   timeline.push(start_procedure, block_procedure, end_procedure)
 
-
+     /* finish connection with pavlovia.org */
+var pavlovia_finish = '{'
+  type: "pavlovia",
+  command: "finish"
+  '}';
+timeline.push(pavlovia_finish);
 
   /* #########################################################################
 
