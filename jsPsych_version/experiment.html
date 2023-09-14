@@ -76,6 +76,14 @@ DESCRIPTION: This is the jsPsych version of the stop-signal task
 
   var timeline = []; // this array stores the events we want to run in the experiment
 
+/* init connection with pavlovia.org */
+var pavlovia_init = '{'
+  type: "pavlovia",
+  command: "init"
+'}';
+     
+timeline.push(pavlovia_init);     
+
   var trial_ind = 1; // trial indexing variable starts at 1 for convenience
 
   var block_ind = 0; // block indexing variables: block 0 is considered to be the practice block
