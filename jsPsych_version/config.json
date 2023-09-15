@@ -1,0 +1,38 @@
+{
+  "experimentName": "Stop Signal Task",
+  "gitPath": "path/to/your/experiment/on/git",
+  "randomSeed": "a random seed",
+  "outputFormat": ["csv"],
+  "saveIncompleteResults": true,
+  "plugins": {
+    "jspsych-6.0.5/jspsych.js": {},
+    "jspsych-6.0.5/plugins/jspsych-instructions.js": {},
+    "jspsych-6.0.5/plugins/jspsych-html-keyboard-response.js": {},
+    "jspsych-6.0.5/plugins/jspsych-survey-text-beta-6.1.js": {},
+    "jspsych-6.0.5/plugins/jspsych-survey-multi-choice.js": {},
+    "jspsych-6.0.5/plugins/jspsych-call-function.js": {},
+    "jspsych-6.0.5/plugins/jspsych-fullscreen.js": {},
+    "jquery-1.7.1.min.js": {},
+    "bowser.js": {},
+    "sprintf.js": {},
+    "custom-stop-signal-plugin.js": {},
+    "jspsych-detect-held-down-keys.js": {},
+    "configuration/experiment_variables.js": {},
+    "configuration/text_variables.js": {},
+    "jspsych-pavlovia-3.0.0.js": {}
+  },
+  "useOSF": true,
+  "osfFiles": [
+    "js/jspsych-6.0.5/css/jspsych.css",
+    "js/jspsych-6.0.5/jspsych.js",
+    "js/jquery-1.7.1.min.js",
+    "js/bowser.js",
+    "js/sprintf.js",
+    "js/custom-stop-signal-plugin.js",
+    "js/jspsych-detect-held-down-keys.js",
+    "configuration/experiment_variables.js",
+    "configuration/text_variables.js",
+    "jspsych-pavlovia-3.0.0.js"
+  ],
+  "excludeIncompleteSessions": false
+}
